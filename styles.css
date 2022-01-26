@@ -38,11 +38,6 @@ body {
     font-size: 1.6rem;
 }
 
-p {
-    text-align: center;
-    margin: 20px 0 60px;
-}
-
 table {
     display: block;
 }
@@ -149,4 +144,8 @@ tfoot th {
     display: table-cell;
     }
 
+}
+
+body > header > a > img {
+    padding-left: 10px;
 }
