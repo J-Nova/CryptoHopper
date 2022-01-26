@@ -1,0 +1,2 @@
+# CryptoHopper
+Crypto Hopper scripts
