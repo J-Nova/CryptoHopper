@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    min-width: 100%;
+    min-height: 75px;
+    background-color: rgb(16,15,68);
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+body {
+    background-color: rgb(84, 84, 112);
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+
+html {
+    padding: 40px;
+    font-size: 62.5%;
+}
+
+body {
+    padding: 20px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0 60px;
+}
+
+table {
+    display: block;
+}
+
+tr, td, tbody, tfoot {
+    display: block;
+}
+
+thead {
+    display: none;
+}
+
+tr {
+    padding-bottom: 10px;
+}
+
+td {
+    padding: 10px 10px 0;
+    text-align: center;
+}
+td:before {
+    content: attr(data-title);
+    color: #7a91aa;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    padding-right: 10px;
+    display: block;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    font-weight: 700;
+}
+
+thead th {
+    background-color: #0074e7;
+    color: #fff;
+    border: 1px solid #202932;
+}
+
+tfoot th {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: #b8c4d2;
+}
+
+
+@media (min-width: 460px) {
+    td {
+    text-align: left;
+    }
+    td:before {
+    display: inline-block;
+    text-align: right;
+    width: 140px;
+    }
+}
+@media (min-width: 720px) {
+    table {
+    display: table;
+    }
+
+    tr {
+    display: table-row;
+    }
+
+    td, th {
+    display: table-cell;
+    }
+
+    tbody {
+    display: table-row-group;
+    }
+
+    thead {
+    display: table-header-group;
+    }
+
+    tfoot {
+    display: table-footer-group;
+    }
+
+    td {
+    border: 1px solid #28333f;
+    }
+    td:before {
+    display: none;
+    }
+
+    td, th {
+    padding: 10px;
+    }
+
+    tr:nth-child(2n+2) td {
+    background-color: #242e39;
+    }
+
+    tfoot th {
+    display: table-cell;
+    }
+
+}
